@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52789838-1886-4580-a687-12780cd723e4" name="Default" comment="" />
+    <list default="true" id="c17f93ba-e8a1-45f3-a9e0-d463bd8f1994" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,10 +31,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -52,7 +52,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Max Sum of K Elements" />
+      <module name="Longest Sequence of Equal" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -83,11 +83,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="52789838-1886-4580-a687-12780cd723e4" name="Default" comment="" />
-      <created>1527763903723</created>
+      <changelist id="c17f93ba-e8a1-45f3-a9e0-d463bd8f1994" name="Default" comment="" />
+      <created>1527764442980</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1527763903723</updated>
+      <updated>1527764442980</updated>
     </task>
     <servers />
   </component>
@@ -129,11 +129,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="23" lean-forward="true" selection-end-line="26" />
         </state>
       </provider>
     </entry>
