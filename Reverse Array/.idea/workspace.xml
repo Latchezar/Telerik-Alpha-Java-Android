@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3894935-596a-41f5-86e8-76f88ae37761" name="Default" comment="" />
+    <list default="true" id="038acf2d-15f1-4520-b34b-82dce45a6862" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,11 +31,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Subset of Sum S/src/Main.java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,7 +55,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Most Frequent" />
+      <module name="Reverse Array" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -83,11 +86,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c3894935-596a-41f5-86e8-76f88ae37761" name="Default" comment="" />
-      <created>1527765620712</created>
+      <changelist id="038acf2d-15f1-4520-b34b-82dce45a6862" name="Default" comment="" />
+      <created>1527767388586</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1527765620712</updated>
+      <updated>1527767388586</updated>
     </task>
     <servers />
   </component>
@@ -107,7 +110,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Learn" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -129,13 +132,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="27" column="26" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="13" column="13" lean-forward="true" selection-end-line="17" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Subset of Sum S/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
