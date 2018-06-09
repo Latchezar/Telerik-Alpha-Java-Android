@@ -16,18 +16,20 @@ public class Main {
         int result = getLargestArea(numbers);
         System.out.println(result);
     }
+    public static int current = 0;
+    public static int biggest = 0;
 
     public static int getLargestArea(int[] nums) {
         int indexOfMin = 0;
         int min = nums[0];
-        for (int i = 1; i < nums.length; i++) {
+        for (int i = 0; i < nums.length; i++) {
             if (nums[i] < min) {
                 indexOfMin = i;
                 min = nums[i];
             }
         }
         //bottom
-        if (nums.length == 0) {
+        if (nums.length <= 2) {
             return nums.length*nums[indexOfMin];
         }
 
@@ -38,6 +40,12 @@ public class Main {
         int[] after = new int[nums.length - 1 - indexOfMin];
         for (int i = 0; i < after.length; i++) {
             after[i] = nums[i+indexOfMin+1];
+        }
+        if (indexOfMin == 0) {
+            return getLargestArea(after);
+        }
+        if (indexOfMin == nums.length-1) {
+            return getLargestArea(before);
         }
         if (getLargestArea(before) > getLargestArea(after)) {
             return  getLargestArea(before);
